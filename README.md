@@ -14,14 +14,14 @@ We monitored 5 different facilities:
     University Sports Centre - Gym
     University Town - Fitness gym
 
-1. Methods
+2. Methods
 
 We added a method to scrape the data from the website and add it to a .csv file. However, there would need to be adjustments made  in order to actually have more usable Data.
 
-1. Examples
+3. Examples
 
-3 consecutive Thursdays in the Kent Ridge Swimming Pool:
-![](./graphics/KRSP_Thursdays.png)
+3 consecutive Fridays in the Kent Ridge Swimming Pool:
+![](./graphics/KRSP_Fridays.png)
 
 3 consecutive Fridays in the gyms (smoothed):
 ![](./graphics/gyms_frids.png)

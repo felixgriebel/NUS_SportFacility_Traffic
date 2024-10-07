@@ -107,14 +107,15 @@ if __name__=="__main__":
     #plot(column='USCG')
     #clean_csv()
     
-    while datetime.datetime.now().hour<7:
-         time.sleep(60)
-    #run loop
-    while datetime.datetime.now().hour<=22:
-        if(datetime.datetime.now().minute%5==0):        
-            append_to_csv()
-            if(datetime.datetime.now().hour==22):
-                break
-            time.sleep(240)
+    plot(columns=['KRSP'],dates=[20,27,4], avg=False, smooth=False)
+    # while datetime.datetime.now().hour<7:
+    #      time.sleep(60)
+    # #run loop
+    # while datetime.datetime.now().hour<=22:
+    #     if(datetime.datetime.now().minute%5==0):        
+    #         append_to_csv()
+    #         if(datetime.datetime.now().hour==22):
+    #             break
+    #         time.sleep(240)
 
 
